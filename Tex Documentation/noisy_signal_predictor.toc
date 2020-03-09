@@ -1,0 +1,10 @@
+\beamer@sectionintoc {1}{Objective}{3}{0}{1}
+\beamer@sectionintoc {2}{Introduction}{5}{0}{2}
+\beamer@sectionintoc {3}{Methodology and Results}{7}{0}{3}
+\beamer@subsectionintoc {3}{1}{Signal Generation}{9}{0}{3}
+\beamer@subsectionintoc {3}{2}{Noise Addition to the Signal}{9}{0}{3}
+\beamer@subsectionintoc {3}{3}{Conversion to datasets}{9}{0}{3}
+\beamer@subsectionintoc {3}{4}{Machine Learning Model}{9}{0}{3}
+\beamer@subsubsectionintoc {3}{4}{1}{Model training}{10}{0}{3}
+\beamer@subsubsectionintoc {3}{4}{2}{Model Validation}{10}{0}{3}
+\beamer@subsectionintoc {3}{5}{Performance measure}{10}{0}{3}

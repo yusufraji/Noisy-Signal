@@ -1,0 +1,108 @@
+\documentclass{beamer}
+\setbeamertemplate{caption}[numbered]
+
+\usetheme{default}
+\usecolortheme{default}
+\usefonttheme{serif}
+\usepackage{graphicx}
+\usepackage{cite}
+\usepackage{amsmath}
+\graphicspath{ {./images/} }
+
+
+\title[Noisy Signal]{Noisy Signal Predictor}
+\subtitle{with machine learning}
+\author{Yusuf Muhammed Raji}
+\institute[MMU]{Multimedia University}
+\date[Mar 2020]{6 March, 2020}
+\author{Yusuf Muhammed Raji}
+
+\begin{document}
+
+\begin{frame}
+    \begin{titlepage}
+        
+    \end{titlepage}
+\end{frame}
+
+\begin{frame}{Table of Contents}
+    \tableofcontents
+        
+\end{frame}
+
+\AtBeginSection[]{
+    \begin{frame}{Table of Contents}
+        \tableofcontents[currentsection]
+        
+    \end{frame}
+}
+\section{Objective}
+
+\begin{frame}
+    \frametitle{Objective}
+    \begin{itemize}
+        \item The objective of is to predict filter out the noise from a
+        sinusoidal signal
+        \item This is similar to filtering the incoming signal using a conventional
+        low-pass filter
+        \item The predictor should be able to de-noise the sinusoidal signal
+        with high degree of accuracy
+    \end{itemize}
+\end{frame}
+\section{Introduction}
+\begin{frame}
+    \begin{itemize}{Introduction}
+        \item Use of Machine learning algorithm to filter out noise from a signal
+        \item s
+    \end{itemize}
+\end{frame}
+
+\section{Methodology and Results}
+\begin{frame}{Methodology and Results}
+    The steps involved in this procedure are systematic.
+    They are:
+    \begin{itemize}
+        \item generation of a sine wave with a uniform amplitude and single frequency
+        \item adding random noise to the sinusoidal signal
+        \item convert the noisy signal to a dataset
+        \item select an appropriate model 
+    \end{itemize}
+\end{frame}
+\subsection{Signal Generation}
+\subsection{Noise Addition to the Signal}
+\subsection{Conversion to datasets}
+\subsection{Machine Learning Model}
+\begin{frame}
+    Regression algorithm will be used
+
+    Providing the X value as the feature, the corresponding Y values(Amplitudes)
+    can be predicted.
+
+    To train the system, we must first provide it with many examples of data
+    points, including both the predictors (in our case, the X values) and their
+    labels (in our case, the corresponding Y values or amplitudes).
+
+    
+\end{frame}
+\subsubsection{Model training}
+\subsubsection{Model Validation}
+\subsection{Performance measure}
+\begin{frame}{Performance measure}
+    \begin{itemize}
+        \item A typical performance measure for regression problems is the Root
+        Mean Square Error (RMSE), as shown in Equation \ref{eqn:rmse}
+        \item It gives an idea of how much error the system typically makes in
+        its predictions
+        \item Higher value of RMSE means the error is large
+        \begin{equation}
+            RMSE \left(\mathbf{X},h\right) = \sqrt{\frac{1}{m} \sum_{i=1}^{m}\left(h\left(\mathbf{x}^{(i)}\right) - y^{(i)}\right)^{2}}
+            \label{eqn:rmse}
+        \end{equation}
+
+    \end{itemize}
+    
+\end{frame}
+\begin{frame}
+    \frametitle{}
+\end{frame}
+\end{document}
